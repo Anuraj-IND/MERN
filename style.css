@@ -112,3 +112,33 @@ h1{
     align-items: center;
     gap: 0.5rem;
 }
+.stats-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff15;
+    color: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    margin: auto 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff15;
+    color: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: auto 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffffff15;
+    background-color: #ffffff15;
+}
